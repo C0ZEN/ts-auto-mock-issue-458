@@ -32,6 +32,9 @@
     "test:clear-cache": "jest --clearCache",
     "lint": "eslint --fix --ext .js,.ts --cache scripts/ src/ jest.config.js config.ts"
   },
+  "dependencies": {
+    "firebase-admin": "9.0.0"
+  },
   "devDependencies": {
     "@types/app-root-path": "1.2.4",
     "@types/jest": "26.0.9",
