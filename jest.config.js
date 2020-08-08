@@ -44,7 +44,7 @@ module.exports = {
 
   displayName: {
     color: `magenta`,
-    name: `Sonia`,
+    name: `ts-auto-mock-issue-458`,
   },
 
   // Make calling deprecated APIs throw helpful error messages
@@ -128,7 +128,7 @@ module.exports = {
   // runner: "jest-runner",
 
   // A list of paths to directories that Jest should use to search for files in
-  roots: [`./src`, `./scripts`],
+  roots: [`./src`],
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
   setupFiles: [`./config.ts`],
